@@ -159,15 +159,12 @@
   </div>
 
   <div class="music-player">
-    <audio id="bgMusic" loop>
-        <source src="happy.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <button class="btn btn-light rounded-circle" onclick="toggleMusic()">
-      <i class="fas fa-music"></i>
-    </button>
+  <audio id="bgMusic" autoplay loop>
+    <source src="happy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
@@ -238,5 +235,6 @@
   </script>
 </body>
 </html>
+
 
 
